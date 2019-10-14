@@ -1,4 +1,2 @@
-#! /bin/bash
-
-ls -cr -m --indicator-style=slash | tr -d ' '
+ls -c -m --indicator-style=slash | tr -d '  '
 
