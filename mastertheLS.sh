@@ -1,3 +1,3 @@
 #! /bin/bash
 
-ls -p | grep -v / | tr '\n' ','
+ls -Atr -p | grep -v / | tr '\n' ',' 
