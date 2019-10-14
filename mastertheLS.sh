@@ -1,3 +1,4 @@
 #! /bin/bash
 
-ls -A -lcrt --format=comma -p
+ls -c -m --indicator-style=slash | tr -d ' '
+
