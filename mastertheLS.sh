@@ -1,3 +1,3 @@
 #! /bin/bash
 
-ls -Atr -p | grep -v / | tr '\n' ',' 
+ls -A -lcrt --format=comma -p
