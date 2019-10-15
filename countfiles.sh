@@ -1,1 +1,1 @@
-ls -l | tail +2 | wc -l
+ls -lA | wc -l
