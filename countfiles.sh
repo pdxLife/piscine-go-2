@@ -1,1 +1,1 @@
-find . -maxdepth 1 -type f -print0 | tr -dc '\0' | wc -c
+find . -type f | wc -l
