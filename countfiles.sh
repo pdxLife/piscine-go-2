@@ -1,1 +1,1 @@
-find . ! -name . -prune -type f -print | grep -c /
+find . -maxdepth 1 -type f -print0 | tr -dc '\0' | wc -c
