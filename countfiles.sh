@@ -1,1 +1,1 @@
-find . -mindepth 1 .type f | wc -l
+find . -mindepth 1 -type f | wc -l
