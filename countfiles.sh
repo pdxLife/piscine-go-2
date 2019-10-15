@@ -1,1 +1,1 @@
-grep -l "string" * | wc -l
+find . -type f | wc -l | -type d
