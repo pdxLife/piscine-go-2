@@ -7,8 +7,8 @@ import (
 func main() {
        i := 97
        for i <= 122 {
-              z01.PrintRune(rune(i))
-              i++
+               z01.PrintRune(rune(i))
+               i++
        }
 
        z01.PrintRune('\n')
