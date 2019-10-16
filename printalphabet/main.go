@@ -10,12 +10,9 @@ func main() {
                 z01.PrintRune(rune(i))
                 i++
         }
-<<<<<<< HEAD
+
         
         z01.PrintRune('\n')
 }
-=======
-       
-        z01.PrintRune('\n)
-}
->>>>>>> 76af816d1e2f362b4f671b5bf77dfdf7d9b3abfa
+
+
