@@ -1,8 +1,8 @@
 package main
 
 import (
-        "fmt"
-        "unicode"
+       "fmt"
+       "unicode"
 )
 func  loweralpha() string {
        p :=make([]byte, 26)
