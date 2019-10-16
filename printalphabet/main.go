@@ -1,7 +1,7 @@
 package main
 
 import (
-        "github.com/01-edu/z01"
+       "github.com/01-edu/z01"
 )
 
 func main() {
@@ -10,5 +10,5 @@ func main() {
                 z01.PrintRune(rune(i))
                 i++
         }
-        z01.PrintRune('\n')
+        z01.PrintRune('\n)
 }
