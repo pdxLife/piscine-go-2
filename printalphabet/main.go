@@ -9,8 +9,6 @@ func main() {
         for i <= 122 {
                 z01.PrintRune(rune(i))
                 i++
-        }
-
-        
+        }      
        z01.PrintRune('\n')
 }
