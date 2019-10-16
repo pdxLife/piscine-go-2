@@ -3,11 +3,11 @@ package main
 import "github.com/01-edu/z01"
 
 func main() {
-	var aRune rune = 57
-	for aRune >= 48 {
+	var aRune rune = 48
+	for aRune <= 57 {
 
 		z01.PrintRune(aRune)
-		aRune--
+		aRune++
 	}
 	z01.PrintRune(10)
 }
