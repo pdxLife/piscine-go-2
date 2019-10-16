@@ -1,13 +1,11 @@
 package main
 
 import (
-       "fmt"
-       "unicode"
+       "github.com/01-edu/z01"
 )
-func  loweralpha() string {
-       p :=make([]byte, 26)
-       for i := range p {
-              p[i] = 'a' + byte(i)
+
+func main() {
+       for i :=97, i <= 122 ; i++ {
+
        }
-       return string(p)
 }
