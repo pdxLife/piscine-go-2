@@ -1,5 +1,9 @@
 package piscine
 
 func StrLen(str string) int {
-	return len(str)
+	galym := 0
+	for range str {
+		galym++
+	}
+	return galym
 }
