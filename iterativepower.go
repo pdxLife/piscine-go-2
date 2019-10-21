@@ -8,6 +8,6 @@ func IterativePower(nb int, power int) int {
 		}
 		return result
 	} else {
-		return 1
+		return 0
 	}
 }
