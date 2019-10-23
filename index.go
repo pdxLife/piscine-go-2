@@ -1,7 +1,12 @@
 package piscine
 
-import "strings"
-
 func Index(s string, toFind string) int {
-	return strings.Index(s, toFind)
+
+	for i := 0; i < len(s)-len(toFind); i++ {
+
+		if s[i:i+len(toFind)] == toFind {
+			return i
+		}
+	}
+	return -1
 }
