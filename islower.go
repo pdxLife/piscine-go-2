@@ -1,9 +1,9 @@
 package piscine
 
-func IsLower(str string) bool {
+func IsUpper(str string) bool {
 	a := []rune(str)
 	for i := range a {
-		if a[i] < 'a' || a[i] > 'z' {
+		if a[i] < 'A' || a[i] > 'Z' {
 			return false
 		}
 
