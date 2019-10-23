@@ -3,20 +3,30 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintNbrInOrder(n int) {
-	m := [10]int{}
+	r := 0
+	var neue int
+	arr := []rune{}
+
 	if n == 0 {
-		m[n]++
+		arr = append(arr, rune(n))
 	}
-	for {
-		if n == 0 {
-			break
-		}
-		m[n%10]++
-		n /= 10
+
+	for n != 0 {
+		neue = n % 10
+		n = n / 10
+		arr = append(arr, rune(neue))
 	}
-	for i := 0; i < 10; i++ {
-		for j := 0; j < m[i]; j++ {
-			z01.PrintRune(rune(48 + i))
+	for range arr {
+		r++
+	}
+	for i1 := 0; i1 < r-1; i1++ {
+		for i2 := i1; i2 < r; i2++ {
+			if arr[i1] > arr[i2] {
+				arr[i1], arr[i2] = arr[i2], arr[i1]
+			}
 		}
+	}
+	for l := 0; l < r; l++ {
+		z01.PrintRune(arr[l] + 48)
 	}
 }
