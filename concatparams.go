@@ -5,6 +5,5 @@ func ConcatParams(args []string) string {
 	for _, s := range args[1:] {
 		result += "\n" + s
 	}
-
 	return result
 }
