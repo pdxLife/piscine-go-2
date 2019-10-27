@@ -4,7 +4,7 @@ func SplitWhiteSpaces(str string) []string {
 	k := 0
 	no_white_spaces := false
 	for index := range str {
-		if no_white_spaces && index != 0 && (str[index-1] == '\n' || str[index-1] == '\t' || str[index-1] == ' ')  && str[index] != '\n' && str[index] != '\t' && str[index] != ' ' {
+		if no_white_spaces && index != 0 && (str[index-1] == '\n' || str[index-1] == '\t' || str[index-1] == ' ') && str[index] != '\n' && str[index] != '\t' && str[index] != ' ' {
 			k++
 		}
 		if str[index] != '\n' && str[index] != '\t' && str[index] != ' ' {
